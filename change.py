@@ -1,13 +1,12 @@
 def change():
-  print("Ingresar gasto:")
-  print(23.75)
-  print("Dinero recibido")
-  print(100)
-  print("")
-  print("Vuelto")
-  print("")
-  print("Pesos:")
-  print(76)
-  print("Centavos:")
-  print(25)
+  gasto_persona = 23.75
+  x = input(f"Ingresar gasto: {gasto_persona}")
+  print(x)
+  pago = input("Dinero recibido")
+  print(pago)
+  pesos = 100
+  print(gasto_persona - pesos)
+  vuelto_pesos = int(input(f"Pesos: {pesos}"))
+  vuelto_centavos = int(input("Centavos: "))
+  print(vuelto_centavos)
 change ()
