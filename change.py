@@ -1,15 +1,13 @@
 def change():
     gasto_persona = 23.75
     pago = 100
-    x = "Ingresar gasto:"
-    y = "Dinero recibido"
-    z = pago - gasto_persona
-    l = str(z).split('.')[1]
-    print(x)
+    print("Ingresar gasto:")
     print(gasto_persona)
-    print(y)
+    print("Dinero recibido")
     print(pago)
     print("\n")
+    z = pago - gasto_persona
+    l = str(z).split('.')[1]
     print("Vuelto")
     print("\n")
     print("Pesos:")
