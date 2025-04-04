@@ -1,6 +1,4 @@
-class TP2TestCases(unittest.TestCase):
-    @unittest.mock.patch('sys.stdout', new_callable=io.StringIO)
-    def test_ada(self, mock_stdout):
+def test_ada(self, mock_stdout):
         ex1.ada()
         results = mock_stdout.getvalue().splitlines()
         self.assertEqual(results[0], "ada lovelace")
