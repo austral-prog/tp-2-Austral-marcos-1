@@ -10,4 +10,4 @@ def change():
   print(76)
   print("Centavos:")
   print(25)
-change()
+change ()
